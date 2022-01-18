@@ -1,0 +1,121 @@
+git init    -> iniciar git en un repositorio
+
+git status   -> me indicara el estado de ese repositorio
+
+git add --all      -> Adiciona cambios a repositorio
+
+git rm --catched archivo.txt   -> saca de memoria el cambios
+
+git config
+
+git config --list
+
+git --global user.name "Eduardo Velasquez"
+
+git --global user.email "educovel20@hotmail.com"
+
+git commit -m "mensaje del cambio"
+
+git log 
+
+git show
+
+git dif   codigo1   codigo2
+
+git remote add origin (link del repositorio remoto)  -> enlazar a un repositorio remoto
+
+git remote
+
+git remote -v
+
+git pull origin -> traer la data del repositorio
+
+git pull origin master --allow-unrelated-histories -> traer la data del repositorio a la fuerza
+
+
+
+
+
+
+
+
+ssh-keygen -t rsa -b 4096 -C "educovel20@hotmail.com" -> de esta manera se crea la llave publica y privada
+
+Generar una nueva llave SSH: (Cualquier sistema operativo)
+
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+Comprobar proceso y agregarlo (Windows)
+
+eval $(ssh-agent - s)
+ssh-add ~/.ssh/id_rsa
+
+
+Comprobar proceso y agregarlo (Mac)
+
+eval "$(ssh-agent -s)"
+¿Usas macOS Sierra 10.12.2 o superior?
+Haz lo siguiente:
+
+cd ~/.ssh
+Crea un archivo config…
+Con Vim vim config
+Con VSCode code config
+Pega la siguiente configuración en el archivo…
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+
+
+Agrega tu llave
+
+ssh-add -K ~/.ssh/id_rsa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LA AUTONOMA
+silabus aprobados , firmados firmados por secretaria academica
+record de notas o certificado de estudio de la universidad(si o si)
+constancia de primera matricula.
+
+500-600 mes 5 pagos ciclo
+
+
+UPN
+MARTES, JUEVES Y SABADO DE  7 A 10:40
+
+CERTIFICADO ESTUDIOS
+LOS SELABUS COPIA DE LOS SILABOS
+RECORD DE NOTAS
+
+INTRANET RECORD DE NOTAS:
+1050 SOLES A MAS 
+MATRICULAS 2CVEES AL AÑO 290 SOLES
+PENSION 744 SOLES
+
+100% DESCUENTO
+PAGO DE INSCRIPCION Y EXAMEN
+NO HAY COBRO DE COVALIDACION
+
+
+UTP
+
+
+
+
+
+
+
